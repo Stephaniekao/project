@@ -168,6 +168,26 @@ project/
     - sample2.csv  (Other city listings)
 - README.md
 
+# ▶️ How to Run the Application
+
+After installing dependencies, launch the dashboard with:
+
+python app.py
+
+The Gradio application will start and provide both a local and (optional) public URL, for example:
+
+- Running on local URL:  http://127.0.0.1:7860
+- Running on public URL: https://xxxxxx.gradio.live
+
+- Local URL works only on your machine.
+- Public URL can be shared with others for remote access (useful for demos or testing).
+
+Open either link in your browser to access the interactive dashboard.
+
+Public URL links expire after 7 days and are automatically regenerated on each run.
+
+If deploying to Hugging Face Spaces, ensure that both requirements.txt and runtime.txt (specifying the Python version) are included.
+
 # 🔥 Why This Dashboard Is Unique
 
 Unlike traditional dashboards, this one:
@@ -199,6 +219,7 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
 
 
