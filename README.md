@@ -19,12 +19,12 @@ The system automatically detects:
 
 This allows the dashboard to work dynamically with different dataset schemas, cities, and file formats.
 
-1️⃣ Kaggle – Paris Airbnb Listings
+1️⃣ ⭐ Recommended – Paris Airbnb Listings
 Original testing dataset for this project.
 🔗 https://www.kaggle.com/datasets/abaghyangor/airbnb-paris
 
-2️⃣ ⭐ Recommended: New York City Airbnb Open Data
-A smaller dataset with a structure similar to Paris, ideal for demonstrating the dashboard’s dynamic behavior.
+2️⃣ ⭐ Stability Tes: New York City Airbnb Open Data
+Used to verify that the dashboard remains stable even when certain data types (such as datetime columns) are missing.
 🔗 https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
 These datasets are just examples.
@@ -192,5 +192,6 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
 
