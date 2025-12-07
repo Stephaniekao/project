@@ -17,11 +17,19 @@ The system automatically detects:
 - Outliers
 - Correlations
 
-Example dataset:
-Kaggle – Airbnb Paris Listings
-https://www.kaggle.com/datasets/abaghyangor/airbnb-paris
+This allows the dashboard to work dynamically with different dataset schemas, cities, and file formats.
 
-(But the dashboard is not limited to Paris.)
+1️⃣ Kaggle – Paris Airbnb Listings
+Original testing dataset for this project.
+🔗 https://www.kaggle.com/datasets/abaghyangor/airbnb-paris
+
+2️⃣ ⭐ Recommended: New York City Airbnb Open Data
+A larger and richer dataset with a structure similar to Paris, ideal for demonstrating the dashboard’s dynamic behavior.
+🔗 https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
+
+These datasets are just examples.
+The dashboard is not limited to the samples above—
+you may upload any Airbnb-style dataset, and the system will automatically adapt.
 
 # 👥 Intended Users
 
@@ -172,3 +180,4 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
