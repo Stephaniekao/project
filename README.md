@@ -141,13 +141,20 @@ These are computed dynamically for any dataset.
 
 # 🚀 Project Status
 
-This README defines the project direction before full implementation.
-The dashboard will be developed using:
+This project was developed and tested with:
 
-- pandas
-- Gradio
-- matplotlib / seaborn / plotly
-- Python 3.8+
+- Python **3.12.11**
+- pandas **2.3.2**
+- numpy **2.2.6**
+- matplotlib **3.10.6**
+- seaborn **0.13.2**
+- gradio **5.46.0**
+
+To install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 # 📁 Project Structure (Planned)
 project/
@@ -192,6 +199,7 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
 
 
