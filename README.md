@@ -6,7 +6,7 @@ This project builds an interactive Business Intelligence (BI) dashboard for anal
 
 It is fully dynamic and supports any Airbnb-style dataset (from Paris, New York, Tokyo, or any city), thanks to automated data-type detection and adaptive visualizations.
 
-#　📦 Dataset Source
+# 📦 Dataset Source
 
 You can upload any CSV or Excel file containing Airbnb-like listing data.
 The system automatically detects:
@@ -219,6 +219,7 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
 
 
