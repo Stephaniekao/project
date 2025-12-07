@@ -127,17 +127,18 @@ The dashboard provides:
    - Automatically generated based on numerical features  
 
 ## ✔ Automated Insights
-The system extracts insights such as:
 
-- Top & bottom performers  
-- Pricing anomalies  
-- Outlier detection (IQR method)  
-- Trends in numerical features  
-- Category-level performance differences  
-- Neighborhood price ranking  
-- Host performance gaps  
+The dashboard automatically extracts insights from any uploaded dataset, including:
+- Top & bottom performers based on a selected numeric metric  
+- Numeric anomalies and outliers (IQR rule, e.g. unusual prices or availability)  
+- Distribution trends in numerical features (e.g. skewness and spread)  
+- Category-level differences in performance (grouped by a selected categorical column)  
+- Detection of rare categories with low sample counts  
+- Highlighting variables with high percentages of missing values  
 
-These are computed dynamically for any dataset.
+For Airbnb-style datasets, this can include examples such as:
+- Neighborhood-level price ranking  
+- Host-level performance gaps (e.g. reviews, ratings, or occupancy)
 
 # 🚀 Project Status
 
@@ -219,6 +220,7 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
 
 
