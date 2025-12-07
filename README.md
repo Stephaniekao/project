@@ -24,12 +24,24 @@ Original testing dataset for this project.
 🔗 https://www.kaggle.com/datasets/abaghyangor/airbnb-paris
 
 2️⃣ ⭐ Recommended: New York City Airbnb Open Data
-A larger and richer dataset with a structure similar to Paris, ideal for demonstrating the dashboard’s dynamic behavior.
+A smaller dataset with a structure similar to Paris, ideal for demonstrating the dashboard’s dynamic behavior.
 🔗 https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
 These datasets are just examples.
 The dashboard is not limited to the samples above—
 you may upload any Airbnb-style dataset, and the system will automatically adapt.
+
+⚠️ About Missing Column Types
+Some visualizations or filters may appear disabled or show empty dropdown options.
+This is expected behavior when the uploaded dataset does not contain the required column types.
+
+Examples:
+- No datetime columns → Time-series plots are disabled
+- No categorical columns → Category charts and filters are disabled
+- Only one numeric column → Scatter plot is not available
+
+The dashboard is fully dynamic and automatically adapts to the dataset.
+It never crashes or throws errors when the data schema changes.
 
 # 👥 Intended Users
 
@@ -180,4 +192,5 @@ Future improvements may include:
 
 This project uses publicly available datasets from Kaggle.  
 All rights belong to the original dataset creators.
+
 
